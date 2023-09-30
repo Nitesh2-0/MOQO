@@ -1,0 +1,74 @@
+@font-face {
+      font-family: 'head';
+      src: url(./Nitesh.ttf);
+}
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+
+}
+html,body{
+      width: 100%;
+      height: 100%
+}
+#main{
+      width: 100%; 
+      background-color: black;
+}
+nav{
+      width: 100%; 
+      height: 7vw;
+      position: fixed;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 5vw;  
+}
+nav h1{
+      font-family: head;
+      font-size: 5vw;
+      font-stretch: 800%;
+}
+nav h1 span:nth-child(1){
+      color: crimson;
+}
+nav h1 span:nth-child(2){
+      color: lightseagreen;
+}
+nav h1 span:nth-child(3){
+      color: #ffffff;
+}
+nav h1 span:nth-child(4){
+      color: slateblue;
+}
+nav ul{
+      display: flex;
+      align-items: center;
+      width: 50%;
+      justify-content: space-between;
+      list-style: none;
+      text-transform: uppercase;
+}
+nav ul li{
+      font-family: sans-serif;
+      font-size: 3vw;
+      font-size: 100;
+      color: #fff;
+}
+#page1{
+      width: 100%; 
+      height: calc(100vh - 7vh);
+      color: #fff;
+      overflow: hidden;
+}
+#page1 h1{
+      font-size: 37vw;
+      text-transform: uppercase;
+      font-family:head;
+      white-space: nowrap;
+      font-stretch: 260%;
+      font-weight: 900;
+      margin-bottom: 5vw;
+      color: #fff;
+}
